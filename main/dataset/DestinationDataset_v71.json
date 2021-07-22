@@ -1,0 +1,17 @@
+{
+	"name": "DestinationDataset_v71",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "timeseriescontainer"
+			}
+		}
+	}
+}
