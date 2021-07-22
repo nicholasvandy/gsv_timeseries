@@ -1,0 +1,17 @@
+{
+	"name": "SourceDataset_v71",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AmazonS32",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AmazonS3Location",
+				"bucketName": "detroit-time-series-buildings"
+			}
+		}
+	}
+}
