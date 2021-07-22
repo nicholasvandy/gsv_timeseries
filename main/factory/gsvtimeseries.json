@@ -1,0 +1,9 @@
+{
+	"name": "gsvtimeseries",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "40449670-1b7f-412b-9def-d8c18afe7ecc",
+		"tenantId": "396573cb-f378-4b68-9bc8-15755c0c51f3"
+	}
+}
