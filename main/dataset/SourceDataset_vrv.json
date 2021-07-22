@@ -1,0 +1,17 @@
+{
+	"name": "SourceDataset_vrv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AmazonS31",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AmazonS3Location",
+				"bucketName": "detroit-time-series-buildings"
+			}
+		}
+	}
+}
